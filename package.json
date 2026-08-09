@@ -1,0 +1,40 @@
+{
+  "name": "lean-nodejs-database-backup-utility",
+  "version": "1.0.0",
+  "description": "CLI utility for backing up and restoring databases across multiple DBMSs (MySQL, PostgreSQL, MongoDB, SQLite).",
+  "main": "src/index.js",
+  "bin": {
+    "db-backup": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "backup",
+    "restore",
+    "database",
+    "mysql",
+    "postgres",
+    "mongodb",
+    "sqlite",
+    "s3",
+    "gcs",
+    "azure",
+    "slack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "winston": "^3.14.2",
+    "axios": "^1.7.5",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.0",
+    "pg": "^8.12.0",
+    "mongodb": "^6.8.0"
+  }
+}

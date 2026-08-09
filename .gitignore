@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Backup outputs and temporary files
+backups/
+tmp/
+tmp_test/
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# OS / Editor generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
